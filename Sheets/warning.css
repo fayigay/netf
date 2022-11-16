@@ -1,0 +1,290 @@
+@font-face{
+    font-family: nf-icon;
+    src: url('../Fonts/nf-icon-v1-93.woff');
+}
+@font-face{
+    font-family: "Netflix Sans";
+    src: url('../Fonts/NetflixSans-Regular-Opt.woff2');
+}
+body{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background: #f3f3f3;
+    color: #333;
+}
+.mynavbar{
+    background:#000;
+}
+.mynavbar .container-fluid{
+    padding-right:40px;
+    padding-left:40px;
+}
+.mynavbar .logo {
+    text-decoration: none;
+    padding: 18px 0;
+    font-size: 32px;
+    color: #e50914;
+    display: block;
+    cursor: pointer;
+    width: 118px;
+}
+[class*=" icon-"], [class^=icon-] {
+    font-family: nf-icon;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.icon-logoUpdate:before {
+    content: '\e5d0';
+}
+.mynavbar .nav-link{
+    padding: 18px 0;
+}
+.avatar{
+    width: 32px;
+    margin-right: 5px;
+}
+.fatawesome{
+    color:#fff;
+}
+.mydropdown{
+    position: fixed;
+    z-index: 1000;
+    top:68px;
+    right:40px;
+    max-width: 156px;
+    
+    background-color: rgba(0,0,0,.97);
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.mydropdown ul{
+    list-style: none;
+    padding: 10px 10px 10px 10px;
+}
+.mydropdown ul li a{
+    color: #fff;
+    font-size:0.750em;
+    font-weight: 700;
+}
+.mydropdown ul li{
+    margin-right:5px;
+    margin-bottom: 5px;
+}
+.li-down:hover{
+    color:red !important;
+}
+
+.myalert .alert{
+    background:#000;
+    color: #e50914;
+    border-color:#000;
+    font-size: 1.15em;
+    padding: .5rem 1.25rem;
+    border-radius: 0;
+}
+.w-content{
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+    font-size:1.125em;
+}
+.btn-netflix-danger{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    padding-top:7px;
+    padding-bottom:7px;
+    background: #e50914;
+    min-width: 250px;
+    color:#fff;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+.btn-netflix-danger:hover,.btn-netflix-danger:focus,.btn-netflix-danger:active{
+    box-shadow: none;
+    color:#fff;
+}
+.titlenetflix{
+    display: inline;
+    vertical-align: middle;
+    color: #333;
+    font-size: 1.9em;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.titlearea{
+    padding-top:.5em;
+    padding-bottom:.5em;
+    border-top:1px solid #999;
+    border-bottom:1px solid #999;
+}
+.membership{
+    padding-top:.5em;
+    padding-bottom:.5em;
+    border-bottom:1px solid #999;
+}
+.titleinside{
+    color: #999;
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 15px;
+    
+}
+.btn-gray{
+    margin-top: 0;
+    background:#e3e3e3;
+    color:#000;
+    border-radius: 0;
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    padding: 9px 2em;
+    min-width: 200px;
+    border-bottom:1px solid #c2c2c2;;
+}
+.btn-gray:hover{
+    background:#eaeaea;
+    color:#000;
+    box-shadow: none;
+}
+.btn-gray:active{
+    background:#c2c2c2;
+    color:#000;
+    box-shadow: none;
+}
+.btn-gray:focus{
+    box-shadow: none;
+}
+.nopadding{
+    padding: 0;
+}
+.email{
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+}
+.email:hover,.email:focus,.email:active{
+    color: #333;
+}
+.netflixlink{
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #0080ff;
+}
+.netflixlinl:active,.netflixlink:focus,.netflixlink:hover{
+    text-decoration: underline;
+    color: #0080ff;
+}
+.mb-10px{
+    margin-bottom: 10px;
+}
+.password{
+    color: #999;
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.password:hover,.password:focus,.password:active{
+    color: #999;
+}
+.borderbottom{
+    padding-bottom:.5em;
+    border-bottom:1px solid #999;
+}
+.icon-payment-mastercard:before {
+    content: '\e902';
+    font-size: 18px;
+}
+.bordertop{
+    padding-top:.5em;
+}
+.w-content .nav-link{
+    cursor: context-menu;
+}
+.type{
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+}
+.forminput .form-control{
+    display: inline-block;
+    width:250px;
+    padding: 0.575rem .75rem;
+    border-radius: 2px;
+    border: solid 1px #b3b3b3;
+    font-size:"Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.forminput .form-control:active,.forminput .form-control:hover,.forminput .form-control:focus{
+    box-shadow: none;
+    border-color: grey;
+}
+.btn-gray{
+    min-width: 110px;
+    padding: 10px 2em;
+    font-family:"Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.type:hover,type:focus,type:active{
+    color: #333;
+}
+.type:hover,type:focus,type:active{
+    color: #333;
+}
+.plan{
+    padding-top:.5em;
+    border-bottom:1px solid #999;
+}
+.settings{
+    padding-top:.5em;
+    border-bottom:1px solid #999;
+}
+.myprofile{
+    padding-top:.5em;
+}
+.site-footer {
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 90%;
+}
+.footer-top {
+    padding: 0;
+    margin: 0 0 30px;
+}
+.footer-top-a {
+    color: #999;
+}
+ul.structural {
+    padding: 0;
+    margin: 0;
+}
+.footer-links {
+    max-width: 1000px;
+    font-size: 13px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul.structural>li {
+    list-style: none;
+    margin-left: 0;
+}
+.footer-link-item {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin-bottom: 16px;
+    display: inline-block;
+    min-width: 100px;
+    width: 25%;
+    padding-right: 12px;
+    vertical-align: top;
+}
+.footer-link {
+    color: #999;
+}
+.footerhr{
+    border-bottom:1px solid #e5e5e5;
+}
